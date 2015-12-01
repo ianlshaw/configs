@@ -2,7 +2,9 @@
 
 ## haproxy_sql
 
-haproxy01 10.0.0.1
+| Hostname  | IP        | 
+| --------- | ---------:|
+| haproxy01 |  10.0.0.1 |
 sqlt01 10.0.0.2
 sqlt02 10.0.0.3
 haproxy02 10.0.0.4
