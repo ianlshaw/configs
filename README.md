@@ -61,14 +61,6 @@ Testing:
 
 ## haproxy_http
 
-http-lb01 10.0.0.100 
-http-lb02 10.0.0.101
-http01 10.0.0.102
-http02 10.0.0.103
-floating_ip 10.0.0.99
-
-
-
 | Hostname    | IP         | 
 | ----------- | ----------:|
 | http-lb01   | 10.0.0.100 |
