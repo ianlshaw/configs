@@ -1,6 +1,13 @@
 # Configs
 
 ## haproxy_sql
+
+haproxy01 10.0.0.1
+sqlt01 10.0.0.2
+sqlt02 10.0.0.3
+haproxy02 10.0.0.4
+floating_ip 10.0.0.25
+
 Master to master sql replication with redundant haproxy load balancing.
 
 Creation of the replication and haproxy users, and grants are not included in the configs, but are absolutely essential. 
@@ -52,4 +59,8 @@ Testing:
 
 ## haproxy_http
 
-Pretty much out of the box.
+http-lb01 10.0.0.100 
+http-lb02 10.0.0.101
+http01 10.0.0.102
+http02 10.0.0.103
+floating_ip 10.0.0.99
