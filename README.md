@@ -2,13 +2,13 @@
 
 ## haproxy_sql
 
-| Hostname  | IP        | 
-| --------- | ---------:|
-| haproxy01 |  10.0.0.1 |
-sqlt01 10.0.0.2
-sqlt02 10.0.0.3
-haproxy02 10.0.0.4
-floating_ip 10.0.0.25
+| Hostname    | IP       | 
+| ----------- | --------:|
+| haproxy01   | 10.0.0.1 |
+| sqlt01      | 10.0.0.2 |
+| sqlt02      | 10.0.0.3 |
+| haproxy02   | 10.0.0.4 |
+| floating_ip | 10.0.0.25|
 
 Master to master sql replication with redundant haproxy load balancing.
 
