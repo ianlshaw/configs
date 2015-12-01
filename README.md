@@ -1,5 +1,6 @@
-# configs
+# Configs
 
+## haproxy_sql
 Master to master sql replication with redundant haproxy load balancing.
 
 Creation of the replication and haproxy users, and grants are not included in the configs, but are absolutely essential. 
@@ -48,3 +49,7 @@ Testing:
 `create database mydb;`
 `create table mydb.dummy (`id` varchar(10));`
 `show tables in mydb;`
+
+## haproxy_http
+
+Pretty much out of the box.
